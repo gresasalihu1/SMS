@@ -1,0 +1,104 @@
+.add {
+  width: 650px;
+  height: 640px;
+  background-color: rgba(14, 68, 119, 0.8);
+  margin-left: 620px;
+  margin-top: 80px;
+  border-radius: 10px;
+  padding-left: 100px;
+  padding-top: 20px;
+  border: none;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: #bdb8d7;
+}
+.addUser {
+  position: absolute;
+  top: 40%;
+  left: 64%;
+}
+
+.add h1 {
+  padding-left: 70px;
+  color: white;
+}
+
+#submit {
+  margin-left: 250px;
+  color: rgb(237, 41, 57);
+  font-weight: bold;
+  border-radius: 10px;
+  font-style: italic;
+  width: 140px;
+  height: 30px;
+  color: #fff;
+  background-color: rgb(68, 148, 223);
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.input {
+  width: 160px;
+  height: 20px;
+  font-size: 16px;
+  text-align: center;
+  color: #0047ab;
+}
+
+fieldset {
+  border: none;
+}
+label {
+  font-weight: bold;
+}
+
+#confirm,
+#error {
+  font-family: "Noto Sans", "Helvetica";
+  display: none;
+  background-color: #f3f5f6;
+  border: 1px solid #aaa;
+  position: fixed;
+  width: 300px;
+  height: 130px;
+  left: 60%;
+  top: 40%;
+  margin-left: -100px;
+  padding: 10px 20px 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+#confirm button,
+#error button {
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: none;
+  padding: 8px;
+  text-align: center;
+  position: absolute;
+  color: #fff;
+  top: 60%;
+  left: 68%;
+  width: 60px;
+  background-color: rgb(68, 148, 223);
+  cursor: pointer;
+}
+#confirm .message,
+#error .message1 {
+  color: red;
+  font-weight: bold;
+  position: absolute;
+  left: 30%;
+  top: 35%;
+  text-align: center;
+}
+#confirm img,
+#error img {
+  position: absolute;
+  left: 10%;
+  top: 20%;
+}
